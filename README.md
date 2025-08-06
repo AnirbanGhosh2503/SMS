@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# 🏫 School Management System - MERN Stack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **modern role-based School Management System** built with **React (frontend)**. Users can log in as **Admin**, **Teacher**, or **Student**, and each role gets a beautiful, personalized dashboard and set of features.
 
-## Available Scripts
+## 🔥 Features
 
-In the project directory, you can run:
+- 🎯 Role-based Login System (Admin, Teacher, Student)
+- 🎨 Hero Landing Page with Animated Text & Image
+- 👤 Admin Dashboard:
+  - View, Add, Edit, Delete Teachers & Students
+- 👩‍🏫 Teacher Dashboard:
+  - View Assigned Classes
+- 🎓 Student Dashboard:
+  - View Enrolled Courses
+- 💅 Glassmorphic UI using only **Black, White, and Blue (#007BFF)** palette
+- 🖥️ Responsive & Clean Design
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📸 Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🔹 Landing Page
+![Landing Page](./Login.png)
 
-### `npm test`
+### 🔹 Admin Dashboard
+![Admin Dashboard](./AdminDashboard.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🔹 Manage Teachers
+![Manage Teachers](./ManageTeachers.png)
 
-### `npm run build`
+### 🔹 Teacher Dashboard
+![Teacher Dashboard](./TeacherDashboard.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🔹 My Classes (Teacher)
+![My Classes](./MyClasses.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔹 Student Dashboard
+![Student Dashboard](./StudentDashboard.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🔹 My Courses (Student)
+![My Courses](./MyCourses.png)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📁 Folder Structure
+```
+frontend/
+│
+├── public/
+│ └── index.html
+├── src/
+│ ├── assets/ # Images and assets
+│ ├── components/ # Shared components (Hero, Modal)
+│ ├── pages/ # Role-based Dashboards
+│ │ ├── AdminDashboard.js
+│ │ ├── TeacherDashboard.js
+│ │ ├── StudentDashboard.js
+│ │ └── ...
+│ ├── styles/ # CSS files
+│ ├── App.js
+│ └── index.js
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+yaml
+Copy
+Edit
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Getting Started
 
-## Learn More
+1. Clone the repository:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/your-username/school-management-frontend.git
+cd school-management-frontend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install dependencies
+npm install
 
-### Code Splitting
+Start the development server
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The app will run at http://localhost:3000
 
-### Analyzing the Bundle Size
+✅ Default Login Credentials (Frontend Only)
+Role	Login ID	Password
+Admin	admin123	any value
+Teacher	teacher123	any value
+Student	student123	any value
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Password validation is not yet implemented.
+📌 To Do
+🔐 Backend with authentication & token-based login
 
-### Making a Progressive Web App
+🧠 Real database integration (MongoDB)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📚 Assignments, Results, Attendance modules
 
-### Advanced Configuration
+📱 Mobile-responsive optimizations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🧪 Unit testing
 
-### Deployment
+💻 Built With
+React.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+React Router DOM
 
-### `npm run build` fails to minify
+Bootstrap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+CountUp.js
+
+Custom CSS (Glassmorphism)
+
+🧑‍💻 Author
+Anirban Ghosh
+Frontend by @Anirban
+Backend coming soon...
+
+📄 License
+This project is licensed under the MIT License.
