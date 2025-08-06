@@ -1,0 +1,110 @@
+.hero-section {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0;
+  min-height: 100vh;              /* 🔥 Full screen height */
+  display: flex;                  /* 🔥 Flex layout for vertical centering */
+  align-items: center;            /* 🔥 Vertically center content */
+  overflow: hidden;               /* 🔒 Prevent internal scroll issues */
+}
+
+/* Typography */
+.main-heading {
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
+.sub-heading {
+  font-size: 1.75rem;
+  line-height: 1.6;
+}
+
+.text-section {
+  padding-left: 2rem;  /* Add left padding */
+}
+
+/* Green Text */
+.text-green {
+  color: #63B04C;
+}
+
+.text-blue {
+  color: #007BFF; /* Bootstrap Primary Blue */
+}
+
+
+/* Animated Changing Word */
+.text-changing {
+  color: #007BFF;
+  display: inline-block;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+/* Buttons */
+.btn-success {
+  background-color: #007BFF;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #007BFF;
+}
+
+/* Image Styling */
+.big-image {
+  width: 100%;
+  max-width: 100%;        /* Override unnecessary limits */
+  height: auto;
+  transform: scale(1.5);  /* 👈 Makes the image appear 20% bigger */
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+/* Caption Styling */
+.caption-box-inside {
+  background-color: #63B04C;
+  color: #ffffff;
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  max-width: 740px;
+  font-size: 1.05rem;
+  text-align: center;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Stats Section */
+.stats-container {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+}
+
+.stat-box {
+  min-width: 120px;
+}
+
+.stat-number {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-size: 1rem;
+  color: #ffffff;
+}
